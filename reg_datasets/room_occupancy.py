@@ -38,8 +38,7 @@ def create_date_dataset():
         df.insert(0, "domain", domain)
         dfs.append(df)
     df = pd.concat(dfs, axis=0)
-    df.to_csv(f"{DATASET_DIR}/room_day.csv")
-    print(df.shape)
+    df.to_csv(f"{DATASET_DIR}/room_day.csv", index=False)
 
 
 def create_time_dataset():
@@ -53,8 +52,7 @@ def create_time_dataset():
         df.insert(0, "domain", domain)
         dfs.append(df)
     df = pd.concat(dfs, axis=0)
-    df.to_csv(f"{DATASET_DIR}/room_time.csv")
-    print(df.shape)
+    df.to_csv(f"{DATASET_DIR}/room_time.csv", index=False)
 
 
 def create_datasets():
