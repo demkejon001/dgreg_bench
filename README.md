@@ -20,7 +20,7 @@ Inspired by [DomainBed](https://github.com/facebookresearch/DomainBed), this cod
 
 ```
 git clone https://github.com/demkjon001/dgreg_bench.git
-cd [repository-name]
+cd dgreg_bench
 ```
 ### Create and activate a virtual environment (recommended)
 ```
