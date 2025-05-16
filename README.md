@@ -3,7 +3,6 @@
 # Domain Generalization Benchmark for Regression
 This repository is the official implementation of "Domain Generalization Benchmark for Regression". 
 Inspired by [DomainBed](https://github.com/facebookresearch/DomainBed), this codebase contains various domain generalization (DG) algorithms and evaluates them on regression tasks across multiple datasets. 
-We investigate how these algorithms perform when distribution shifts occur between training and testing domains.
 
 
 ## Table of Contents
