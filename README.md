@@ -202,10 +202,10 @@ If you wish to get roughly similar results without waiting for 5 hours, reduce t
 
 ## References
 [1] Liu, J., Wang, T., Cui, P., & Namkoong, H. (2023). On the need for a language describing distribution shifts: Illustrations on tabular datasets. In Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track.
-* We used and modified the [whyshift](https://github.com/namkoong-lab/whyshift/) code to preprocess datasets such as US Accidents and Taxi, modifying them for regression tasks instead of classification.
+* We used and modified the [whyshift](https://github.com/namkoong-lab/whyshift/) code to preprocess datasets such as US Accidents, Taxi, and the ACS Datasets.
 
 [2] Gulrajani, I., & Lopez-Paz, D. (2020). In search of lost domain generalization. arXiv. https://arxiv.org/abs/2007.01434
-* The [DomainBed](https://github.com/facebookresearch/DomainBed) codebase formed a significant portion of our methodology, particularly in its algorithms and hyperparameters.
+* The [DomainBed](https://github.com/facebookresearch/DomainBed) codebase formed a significant portion of our methodology, and we utilized their algorithms and hyperparameters.
 
 [3] Agarwal, R., Schwarzer, M., Castro, P. S., Courville, A. C., & Bellemare, M. (2021). Deep reinforcement learning at the edge of the statistical precipice. Advances in Neural Information Processing Systems, 34.
 * We used and modified the [rliable](https://github.com/google-research/rliable) code to compute our bootstrap confidence intervals and to create pretty plots.
