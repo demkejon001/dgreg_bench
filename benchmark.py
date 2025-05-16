@@ -43,6 +43,7 @@ def get_args():
     parser = argparse.ArgumentParser(description='Domain Generalization for Regression')
     parser.add_argument('-data', '--dataset_type', type=str, default="sin")
     parser.add_argument('-alg', '--algorithm_type', type=str, default="ERM")
+    parser.add_argument('--benchmark_type', type=str, choices=BENCHMARK_TYPES)
     parser.add_argument('--hparams', type=str, help='JSON-serialized hparams dict')
     parser.add_argument('--hparams_seed', type=int, default=0, help='Seed for random hparams (0 means "default hparams")')
     parser.add_argument('--seed', type=int, default=0, help='Seed for everything else')
